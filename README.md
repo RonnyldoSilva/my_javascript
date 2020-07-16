@@ -25,3 +25,10 @@ NaN
 > isNaN(NaN)
 true
 ```
+
+## Never Declare Number, String, or Boolean Objects
+```javascript
+var x = "John";             
+var y = new String("John");
+(x === y) // is false because x is a string and y is an object. 
+```
